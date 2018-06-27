@@ -1,6 +1,6 @@
 def prime?(integer)
 if integer >= 2
-  (2..(integer - 1)).each do |n|
+  (2..(integer - 1)).all? do |n|
      if integer % n == 0
        return false
      end
