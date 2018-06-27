@@ -1,12 +1,6 @@
 def prime?(integer)
-  if integer % 2 == false
-  elsif integer % 3 == false
-  elsif integer % 4 == false
-  elsif integer % 5 == false
-  elsif integer % 6 == false
-  elsif integer % 7 == false
-  elsif integer % 8 == false
-  elsif integer % 9 == false
+  if integer % 2 == false || integer % 3 == false || integer % 4 == false ||integer % 5 == false
+  || integer % 6 == false || integer % 7 == false || integer % 8 == false ||integer % 9 == false
   elsif integer < 0 == false
   else
     true
