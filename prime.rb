@@ -1,6 +1,5 @@
 def prime?(integer)
-if integer < 0 == false
-  else
-    true
-  end
+ integer.any? do |number|
+   if number % [0...10] == true
+     false
 end
