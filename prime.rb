@@ -1,7 +1,5 @@
 def prime?(integer)
-  if integer < 0
-    false
-  end
+  integer < 0 ? true : false
   (2..(integer - 1)).each do |n|
      if integer % n == 0
        return false
