@@ -2,7 +2,7 @@ def prime?(integer)
   (2..(integer - 1)).each do |n|
      if integer % n == 0
        return false
-     elsif integer < 0
+     elsif integer =< 0
        return false
      end
    end
